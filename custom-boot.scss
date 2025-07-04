@@ -81,4 +81,15 @@ nav {
   }
 }
 
+.hover-zoom {
+  overflow: hidden;
+}
+
+.hover-zoom img {
+  transition: transform 0.3s ease;
+}
+
+.hover-zoom:hover img {
+  transform: scale(1.1);
+}
 @import "./scss/bootstrap.scss";
