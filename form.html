@@ -6,5 +6,123 @@
     <link rel="stylesheet" href="./custom-boot.css" />
     <title>NetflixHome</title>
   </head>
-  <body></body>
+  <body class="bg-dark">
+    <div class="container-fluid py-3">
+      <a
+        class="navbar-brand m-0 d-flex justify-content-center justify-content-lg-start"
+        href="#"
+      >
+        <img height="40" src="./assets/netflix_logo.png" alt="Netflix Logo" />
+      </a>
+
+      <div class="container text-light py-4" style="max-width: 700px">
+        <h1 class="mb-4">Edit Profile</h1>
+        <hr class="text-light my-4" />
+
+        <div class="row align-items-center mb-5">
+          <div class="col-auto">
+            <img height="130" src="./assets/avatar.png" alt="Profile Avatar" />
+          </div>
+          <div class="col">
+            <div class="bg-secondary text-light p-2 mb-3 rounded-0 w-75">
+              Strive Student
+            </div>
+            <span class="text-secondary d-block mb-2">Language:</span>
+            <div class="dropdown">
+              <button
+                class="btn btn-sm btn-secondary dropdown-toggle btn-sm rounded-0 btn-dark btn-outline-light text-start rounded-0"
+                type="button"
+                id="dropdownMenuButton1"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                English
+              </button>
+              <ul
+                class="dropdown-menu dropdown-menu-dark rounded-0"
+                aria-labelledby="dropdownMenuButton1"
+              >
+                <li><a class="dropdown-item" href="#">Italian</a></li>
+                <li><a class="dropdown-item" href="#">Spanish</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <hr class="text-light my-4" />
+
+        <div class="mb-5">
+          <h5 class="text-secondary mb-3">Maturity Settings:</h5>
+          <button
+            type="button"
+            class="btn btn-dark btn btn-outline-light rounded-0 mb-2"
+          >
+            ALL MATURITY RATINGS
+          </button>
+          <p class="text-light mb-3">
+            Show titles of all maturity ratings for this profile.
+          </p>
+          <button
+            type="button"
+            class="btn-dark btn btn-outline-light rounded-0"
+          >
+            EDIT
+          </button>
+        </div>
+
+        <hr class="text-light my-4" />
+
+        <div class="mb-5 d-flex flex-column align-self-end justify-content-end">
+          <h5 class="text-secondary mb-3">Autoplay controls</h5>
+          <div class="form-check mb-2">
+            <input
+              class="form-check-input text-secondary rounded-0 bg-dark"
+              type="checkbox"
+              value=""
+              id="autoplayNext"
+              checked
+            />
+            <label class="form-check-label" for="autoplayNext">
+              Autoplay next episode in a series on all devices.
+            </label>
+          </div>
+          <div class="form-check bg-dark">
+            <input
+              class="form-check-input rounded-0 bg-dark"
+              type="checkbox"
+              value=""
+              id="autoplayPreviews"
+              checked
+            />
+            <label class="form-check-label" for="autoplayPreviews">
+              Autoplay previews while Browse on all devices.
+            </label>
+          </div>
+        </div>
+
+        <hr class="text-light my-4" />
+
+        <div class="d-flex justify-content-center pt-4">
+          <button
+            type="button"
+            class="btn btn-sm rounded-0 btn-dark btn-outline-light mx-2"
+          >
+            SAVE
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm rounded-0 btn-dark btn-outline-light mx-2"
+          >
+            CANCEL
+          </button>
+          <button
+            type="button"
+            class="btn btn-sm rounded-0 btn-dark btn-outline-light mx-2"
+          >
+            DELETE PROFILE
+          </button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
