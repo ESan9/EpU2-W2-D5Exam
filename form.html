@@ -7,6 +7,7 @@
     <title>NetflixHome</title>
   </head>
   <body class="bg-dark">
+    <!-- Potevo organizzare la parte centrale meglio su due column per ottenere un layout più simile all'originale -->
     <div class="container-fluid py-3">
       <a
         class="navbar-brand m-0 d-flex justify-content-center justify-content-lg-start"
@@ -19,11 +20,11 @@
         <h1 class="mb-4">Edit Profile</h1>
         <hr class="text-light my-4" />
 
-        <div class="row align-items-center mb-5">
+        <div class="row align-items-center justify-content-start mb-5">
           <div class="col-auto">
             <img height="130" src="./assets/avatar.png" alt="Profile Avatar" />
           </div>
-          <div class="col">
+          <div class="col-6">
             <div class="bg-secondary text-light p-2 mb-3 rounded-0 w-75">
               Strive Student
             </div>
@@ -51,7 +52,7 @@
 
         <hr class="text-light my-4" />
 
-        <div class="mb-5">
+        <div class="mb-5 d-flex flex-column align-items-start">
           <h5 class="text-secondary mb-3">Maturity Settings:</h5>
           <button
             type="button"
@@ -72,7 +73,7 @@
 
         <hr class="text-light my-4" />
 
-        <div class="mb-5 d-flex flex-column align-self-end justify-content-end">
+        <div class="mb-5 d-flex flex-column align-items-start">
           <h5 class="text-secondary mb-3">Autoplay controls</h5>
           <div class="form-check mb-2">
             <input
